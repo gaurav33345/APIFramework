@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.automation.api.Util.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="fname" value="testdata.json"/>
+    <classes>
+      <class name="apiAutomationeleven.GoogleAddPlaceTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="config"/>
+          <include name="LogBeforeMethod"/>
+          <include name="SpecBuilder" invocation-numbers="0 0 0 0"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- apiAutomationeleven.GoogleAddPlaceTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

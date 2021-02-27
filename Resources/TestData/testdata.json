@@ -1,0 +1,16 @@
+{
+"test1":{
+"urigetuser":"https://reqres.in/api/users/2",
+"expectedSCTC001":200
+},
+"test2":{
+
+"Name":"GAURAV",
+"Phonenumber":"1234567890",
+"Address":"West",
+"type1":"King",
+"type2":"Keeper",
+"website":"google.com",
+"language":"Marathi"
+}
+}
